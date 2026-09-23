@@ -1,0 +1,38 @@
+name: ACME CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Build shared UI
+        run: |
+          cd shared-ui
+          npm install
+          npm run build
+
+      - name: Build Customer App
+        run: |
+          cd customer-app
+          npm ci
+          npm run build
+
+      - name: Build Admin App
+        run: |
+          cd admin-app
+          npm ci
+          npm run build
