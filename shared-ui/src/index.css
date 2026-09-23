@@ -1,0 +1,29 @@
+/* Global styles for ACME Shared UI */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.ui-button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+}
+
+.ui-button-primary {
+  background: #2563eb;
+  color: white;
+}
+
+.ui-button-secondary {
+  background: #e5e7eb;
+  color: #111827;
+}
