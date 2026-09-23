@@ -1,6 +1,6 @@
 {
   "name": "@kranthihayu/shared-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ACME shared React component library",
   "type": "module",
   "files": [
