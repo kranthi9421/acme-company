@@ -21,3 +21,11 @@ Each project has its own dependencies. Navigate to the project folder and run:
 
 npm install
 npm run dev
+
+
+## Repository Structure
+
+- .github/workflows - CI automation
+- shared-ui - Shared design system
+- customer-app - Customer application
+- admin-app - Admin application
