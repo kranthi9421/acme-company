@@ -1,0 +1,11 @@
+# Default owner for the entire repository
+* @kranthi9421
+
+# Shared UI library
+/shared-ui/ @kranthi9421
+
+# Customer app
+/customer-app/ @kranthi9421
+
+# Admin app
+/admin-app/ @kranthi9421
