@@ -1,5 +1,6 @@
-import { Button } from "@acme/shared-ui";
-import "@acme/shared-ui/style.css";
+import { Button } from "@kranthihayu/shared-ui";
+import "@kranthihayu/shared-ui/style.css";
+
 
 function App() {
   return (
